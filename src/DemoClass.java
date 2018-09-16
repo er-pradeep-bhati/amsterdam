@@ -1,11 +1,7 @@
 
 public class DemoClass  {
 
-	/*@Override
-	public int compareTo(T arg0) {
-		// TODO Auto-generated method stub
-		return 0;
-	}*/
+	
 	int a;
 	String name;
 	public int getA() {
@@ -40,6 +36,8 @@ public class DemoClass  {
 			return false;
 		return true;
 	}
+	
+	//Added line1
 	
 
 }
