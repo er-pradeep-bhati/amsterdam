@@ -1,0 +1,45 @@
+
+public class DemoClass  {
+
+	/*@Override
+	public int compareTo(T arg0) {
+		// TODO Auto-generated method stub
+		return 0;
+	}*/
+	int a;
+	String name;
+	public int getA() {
+		return a;
+	}
+	public void setA(int a) {
+		this.a = a;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + a;
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		DemoClass other = (DemoClass) obj;
+		if (a != other.a)
+			return false;
+		return true;
+	}
+	
+
+}
