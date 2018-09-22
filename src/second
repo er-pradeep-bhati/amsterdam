@@ -1,6 +1,12 @@
 second file
 3rd commit on local
 Third commit on remote
+<<<<<<< HEAD
 4th commit on 3rd
 111th commit on 3rd
 112 commit on 4th
+=======
+Fourth commit on remote
+111 commit on remote
+112 commit on remote
+>>>>>>> origin/third
