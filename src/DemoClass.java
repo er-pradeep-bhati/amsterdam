@@ -4,6 +4,7 @@ public class DemoClass  {
 	
 	int a;
 	String name;
+	String add;
 	public int getA() {
 		return a;
 	}
